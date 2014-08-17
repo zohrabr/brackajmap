@@ -30,6 +30,13 @@ gouv_choice=(
  	('Zaghouan','Zaghouan'),
 )
 
+class crimetype(models.Model):
+	
+	name = models.CharField(max_length=128)
+	
+	def __unicode__(self):
+		return self.name
+
 class crime(models.Model):
 	
 	gouvernorat = models.CharField(max_length=30, choices=gouv_choice,default='Tunis')
@@ -38,16 +45,11 @@ class crime(models.Model):
 	#geom = gismodels.PointField()
 	#objects = gismodels.GeoManager()
 	crimetype = models.ForeignKey(crimetype)
-	ctp = models.IntegerField(default=0)
+	cpt = models.IntegerField(default=0)
 	
 	def __unicode__(self):
 		return 'Tunisie'
 
-class crimetype(models.Model):
-	
-	name = models.CharField(max_length=128)
-	
-	def __unicode__(self):
-		return self.name
+
 	
 

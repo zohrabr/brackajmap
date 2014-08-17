@@ -16,10 +16,12 @@ PROJECT_PATH=os.path.join(SETTINGS_DIR,os.pardir)
 PROJECT_PATH=os.path.abspath(PROJECT_PATH)
 TEMPLATE_PATH=os.path.join(PROJECT_PATH,'templates')
 DATABASE_PATH=os.path.join(PROJECT_PATH,'crime.db')
-
+TEMPLATE_DIRS=(
+	TEMPLATE_PATH,
+)
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
-
+APPEND_SLASH = True
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'xh=3b&jpy-1&i0!6lu(e@^((y_2y%*f_7qykzhe-#(29n_54x6'
 
@@ -27,9 +29,7 @@ SECRET_KEY = 'xh=3b&jpy-1&i0!6lu(e@^((y_2y%*f_7qykzhe-#(29n_54x6'
 DEBUG = True
 
 TEMPLATE_DEBUG = True
-TEMPLATE_DIRS=(
-	TEMPLATE_PATH,
-)
+
 
 
 ALLOWED_HOSTS = []
@@ -38,12 +38,14 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = (
-    'django.contrib.admin',
+    
+'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.admindocs',
     'crime',
 )
 

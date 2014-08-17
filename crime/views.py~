@@ -16,7 +16,7 @@ def add_crime(request):
 		else: 
 			print form.errors
 	else:
-		form=crimeForm()
+		form=crimetypeForm()
 	return render_to_response('crime/add_crime.html',{'form':form},context)
 def thanks(request):
 	context=RequestContext(request)

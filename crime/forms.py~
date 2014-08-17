@@ -1,8 +1,5 @@
-from django.db import models
-#from django.contrib.gis.db import models as gismodels
-
-
-
+from django import forms
+from crime.models import crimetype, crime
 gouv_choice=(
 	('Ariana','Ariana'), 
 	('Beja','Beja'), 
@@ -35,27 +32,14 @@ crime_choice=(
 	('viole','viole'),
 	('vol','vol'),
 )
+class crimeForm(forms.ModelForm):
+	crimetype=forms.ChoiceField(label="selection", choices=crime_choice)
+	time=forms.DateField()
+	description=forms.CharField(widget=forms.Textarea)
+	cpt=forms.IntegerField(widget=forms.HiddenInput(), initial=0)
+	gouvernorat=forms.ChoiceField(label="Selection", choices=gouv_choice)
+	class Meta:
+		model= crime
+		fields=('time','description','gouvernorat','cpt')
 
-class crimetype(models.Model):
-	
-	name = models.CharField(max_length=128,choices=crime_choice,default='braquage')
-	
-	def __unicode__(self):
-		return self.name
-
-class crime(models.Model):
-	
-	gouvernorat = models.CharField(max_length=30, choices=gouv_choice,default='Tunis')
-	description = models.TextField()
-	time = models.DateTimeField(auto_now_add=False, auto_now=False, verbose_name="Date de crime")
-	#geom = gismodels.PointField()
-	#objects = gismodels.GeoManager()
-	crimetype = models.ForeignKey(crimetype)
-	cpt = models.IntegerField(default=0)
-	
-	def __unicode__(self):
-		return 'Tunisie'
-
-
-	
 

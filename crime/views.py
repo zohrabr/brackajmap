@@ -20,5 +20,5 @@ def add_crime(request):
 	return render_to_response('crime/add_crime.html',{'form':form},context)
 def thanks(request):
 	context=RequestContext(request)
-	cont_dict={ 'thx' : "merci pour votre participation pour une meilleur tunisie" }
-	return render_to_response('crime/thanks.html',cont_dict)
+	context_dict={ 'thx' : "merci pour votre participation pour une meilleur tunisie" }
+	return render_to_response('crime/thanks.html',context_dict)

@@ -16,6 +16,7 @@ def add_crime(request):
 		var=request.POST['crimetype']
 		
 		if form.is_valid():
+			
 			form.save(commit=True)
 			
 			return thanks(request)
@@ -26,5 +27,8 @@ def add_crime(request):
 		form = crimeForm()
 	
 	return render_to_response('crime/add_crime.html',{'form':form},context)
+def statistique(request):
+	context =  RequestContext(request)
+	return render_to_response('crime/statistique.html',{})	
 
 

@@ -44,7 +44,7 @@ class crimetype(models.Model):
 		return self.name
 
 class crime(models.Model):
-	
+	pseudonyme = models.CharField(max_length=80)
 	gouvernorat = models.CharField(max_length=30, choices=gouv_choice,default='Tunis')
 	description = models.TextField()
 	time = models.DateTimeField(auto_now_add=False, auto_now=False, verbose_name="Date de crime")
@@ -54,7 +54,7 @@ class crime(models.Model):
 	cpt = models.IntegerField(default=0)
 	
 	def __unicode__(self):
-		return 'Tunisie'
+		return self.pseudonyme
 
 
 	

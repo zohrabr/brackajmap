@@ -33,14 +33,11 @@ crime_choice=(
 	('vol','vol'),
 )
 class crimeForm(forms.ModelForm):
-	gouvernorat=forms.ChoiceField(label="Selection", choices=gouv_choice)	
-	crimetype=forms.ChoiceField(label="selection", choices=crime_choice)
-	time=forms.DateField()
-	description=forms.CharField(widget=forms.Textarea)
-	cpt=forms.IntegerField(widget=forms.HiddenInput(), initial=0)
 	
+	cpt=forms.IntegerField(widget=forms.HiddenInput(), initial=0)
+	abscisse= forms.CharField()
+	ordonne= forms.CharField()
 	class Meta:
-		model= crime
-		fields=('time','description','gouvernorat','cpt')
-
+		model = crime
+		
 

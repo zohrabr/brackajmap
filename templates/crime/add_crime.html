@@ -3,7 +3,7 @@
 {% block body_block %}
 	 <h1>Quel crime vous a rencontrez ? </h1>
 
-        <form id="crime_form" method="post" action="/crime/add_crime/">
+        <form id="crime_form" method="post" action="/crime/new_crime/">
 
             {% csrf_token %}
             {% for hidden in form.hidden_fields %}

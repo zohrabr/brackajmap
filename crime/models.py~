@@ -29,16 +29,22 @@ gouv_choice=(
  	('Tunis' ,'Tunis'),
  	('Zaghouan','Zaghouan'),
 )
+crime_choice=(
+	('braquage','braquage'),
+	('harcelement sexuelle','harcelement sexuelle'),
+	('viole','viole'),
+	('vol','vol'),
+)
 
 class crimetype(models.Model):
 	
-	name = models.CharField(max_length=128)
+	name = models.CharField(max_length=128,choices=crime_choice,default='braquage')
 	
 	def __unicode__(self):
 		return self.name
 
 class crime(models.Model):
-	
+	pseudonyme = models.CharField(max_length=80)
 	gouvernorat = models.CharField(max_length=30, choices=gouv_choice,default='Tunis')
 	description = models.TextField()
 	time = models.DateTimeField(auto_now_add=False, auto_now=False, verbose_name="Date de crime")

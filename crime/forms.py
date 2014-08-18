@@ -35,8 +35,8 @@ crime_choice=(
 class crimeForm(forms.ModelForm):
 	
 	cpt=forms.IntegerField(widget=forms.HiddenInput(), initial=0)
-	abscisse= forms.CharField()
-	ordonne= forms.CharField()
+	abscisse= forms.CharField(help_text='abcisse')
+	ordonne= forms.CharField(help_text='ordonnee')
 	class Meta:
 		model = crime
 		

@@ -44,13 +44,13 @@ class crimetype(models.Model):
 		return self.name
 
 class crime(models.Model):
-	pseudonyme = models.CharField(max_length=80)
-	gouvernorat = models.CharField(max_length=30, choices=gouv_choice,default='Tunis')
-	description = models.TextField()
-	time = models.DateTimeField(auto_now_add=False, auto_now=False, verbose_name="Date de crime")
+	pseudonyme = models.CharField(max_length=80,help_text="pseudonyme:")
+	gouvernorat = models.CharField(max_length=30, choices=gouv_choice,default='Tunis',help_text="Gouvernorat")
+	description = models.TextField(help_text="informations sur le crime ")
+	time = models.DateTimeField(auto_now_add=False, auto_now=False, verbose_name="Date de crime",help_text="Date et Heure du crime ")
 	#geom = gismodels.PointField()
 	#objects = gismodels.GeoManager()
-	crimetype = models.ForeignKey(crimetype)
+	crimetype = models.ForeignKey(crimetype,help_text="Quel est le crime ?")
 	cpt = models.IntegerField(default=0)
 	
 	def __unicode__(self):

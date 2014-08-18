@@ -21,7 +21,7 @@ TEMPLATE_DIRS=(
 )
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
-
+APPEND_SLASH = True
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'xh=3b&jpy-1&i0!6lu(e@^((y_2y%*f_7qykzhe-#(29n_54x6'
 

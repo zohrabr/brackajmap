@@ -29,6 +29,6 @@ def add_crime(request):
 	return render_to_response('crime/add_crime.html',{'form':form},context)
 def statistique(request):
 	context =  RequestContext(request)
-	return render_to_response('crime/statistique',{})	
+	return render_to_response('crime/statistique.html',{})	
 
 

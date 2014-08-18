@@ -1,6 +1,5 @@
 from django.db import models
-#from django.contrib.gis.db import models as gismodels
-
+from geoposition.fields import GeopositionField
 
 
 gouv_choice=(
@@ -48,8 +47,7 @@ class crime(models.Model):
 	gouvernorat = models.CharField(max_length=30, choices=gouv_choice,default='Tunis',help_text="Gouvernorat")
 	description = models.TextField(help_text="informations sur le crime ")
 	time = models.DateTimeField(auto_now_add=False, auto_now=False, verbose_name="Date de crime",help_text="Date et Heure du crime ")
-	#geom = gismodels.PointField()
-	#objects = gismodels.GeoManager()
+	position = GeopositionField()
 	crimetype = models.ForeignKey(crimetype,help_text="Quel est le crime ?")
 	cpt = models.IntegerField(default=0)
 	

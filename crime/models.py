@@ -33,26 +33,29 @@ crime_choice=(
 	('harcelement sexuelle','harcelement sexuelle'),
 	('viole','viole'),
 	('vol','vol'),
+	('agression','agression'),
+	('assassinat','assassinat'),
+	('kidnap','kidnap'),
+)
+sexchoice=(
+	('H','Homme'),
+	('F','Femme'),
 )
 
-class crimetype(models.Model):
-	
-	name = models.CharField(max_length=128,choices=crime_choice,default='braquage')
-	
-	def __unicode__(self):
-		return self.name
+
 
 class crime(models.Model):
-	pseudonyme = models.CharField(max_length=80,help_text="pseudonyme:")
+	
 	gouvernorat = models.CharField(max_length=30, choices=gouv_choice,default='Tunis',help_text="Gouvernorat")
 	description = models.TextField(help_text="informations sur le crime ")
+	sexe=models.CharField(max_length=15,choices=sexchoice)
 	time = models.DateTimeField(auto_now_add=False, auto_now=False, verbose_name="Date de crime",help_text="Date et Heure du crime ")
 	position = GeopositionField()
-	crimetype = models.ForeignKey(crimetype,help_text="Quel est le crime ?")
+	crimetype = models.CharField(max_length=30,choices=crime_choice,help_text="Quel est le crime ?")
 	cpt = models.IntegerField(default=0)
 	
 	def __unicode__(self):
-		return self.pseudonyme
+		return 'Tunisie'
 
 
 	

@@ -1,9 +1,11 @@
-from django.shortcuts import render_to_response
+from django.shortcuts import render_to_response, HttpResponse
 from django.template import RequestContext
 from crime.forms import crimeForm
+from crime.models import crime
+import json
 def acceuil(request):
 	context =  RequestContext(request)
-	context_dict=  { 'hello':"Bienvenue sur notre site CrimeMap"}
+	context_dict=  { 'hello':"Page d'acceuil de CriMap"}
 	return render_to_response('crime/acceuil.html',context_dict)
 def thanks(request):
 	context = RequestContext(request)
@@ -31,4 +33,56 @@ def statistique(request):
 	context =  RequestContext(request)
 	return render_to_response('crime/statistique.html',{})	
 
+def delete(request):
+	if 'id' not in request.GET: 
+		return HttpResponse("fail")
+	the_id = request.GET['id']
+	
+	try:	
+		obj=crime.objects.get(id=the_id)
+		obj.delete()
+		return 	HttpResponse("success ")
+	except:
+		return  HttpResponse("fail")
+def modify(request):
+	if 'id' not in request.GET: 
+		return HttpResponse("fail")
+	the_id=request.GET['id']
+	if request.method == 'GET' :	
+		try:
+			obj=crime.objects.get(id=the_id)
+			gouv = obj.gouvernorat
+			desc= obj.description
+			sx= obj.sexe
+			temp=str(obj.time)
+			cat=obj.crimetype
+			pos=str(obj.position)
+			dictionnaire={ 'gouv': gouv ,'temp':temp, 'desc':desc ,'pos' : pos, 'sx' : sx ,  'cat':cat }
+	  
+			return HttpResponse(json.dumps(dictionnaire))
+		except:
+			return HttpResponse("fail")
+	elif request.method == 'POST':
+		try :
+			obj=crime.objects.get(id=the_id)
+		except:
+			return HttpResponse("fail")
+		if "gouvernorat" in request.POST:
+			obj.gouvernorat= request.POST["gouvernorat"]
+		if "description" in request.POST:
+			obj.description= request.POST["description"] 
+		if "sexe" in request.POST:
+			obj.sexe= request.POST["sexe"]
+		if "crimetype" in request.POST:
+			obj.crimetype= request.POST["crimetype"]
+		if "position" in request.POST:
+			obj.position= request.POST["position"]
+		if "time" in request.POST:
+			obj.time=request.POST["time"]
+		return HttpResponse("succes :)")
+	else :
+		return HttpResponse("fail :/")		
+		
 
+
+	

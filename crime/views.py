@@ -83,6 +83,47 @@ def modify(request):
 	else :
 		return HttpResponse("fail post")		
 		
+def filtercrime(request):
+	if request.method == "POST":
+		sex = request.POST["sexe"]
+		gouv = request.POST["gouvernorat"]
+		cat = request.POST["crimetype"]
+		
+		q = Q()
+		if sex :
+			q= q & Q(sexe=sex)
+		if gouv :
+			q= q & Q(gouvernorat=gouv)
+		if cat:
+			q= q & Q(crimetype=cat)
+		crimes=crime.objects.filter(q)
+		l=[]
+		for c in crimes:
+			mot= str(c.time)
+			m=mot[:18]
+			l.append(m)
+		crimes=list(crimes.values_list("gouvernorat","position","crimetype"))
+                i= -1
+		lis = []
+		for c in crimes:
+			i += 1
+			a=list(c)
+			a.append(l[i])
+			x=tuple(a)
+			lis.append(x)
+
+		return HttpResponse(json.dumps(lis), content_type="application/json")
+	else:
+		return HttpResponse()
 
 
-	
+
+
+def fct(obj):
+	temp =obj.date()
+
+
+
+
+
+

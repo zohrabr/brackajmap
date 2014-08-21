@@ -8,4 +8,5 @@ urlpatterns=patterns('',
 	url(r'^statistique/$',views.statistique, name='statistique'),
 	url(r'^supprimer/$', views.delete, name='supprimer'),
 	url(r'^modifier/$', views.modify , name='modifier'),
+	url(r'^statistique/filter/$', views.filtercrime , name='filter'),
 )

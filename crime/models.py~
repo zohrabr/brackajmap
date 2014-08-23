@@ -46,12 +46,12 @@ sexchoice=(
 
 class crime(models.Model):
 	
-	gouvernorat = models.CharField(max_length=30, choices=gouv_choice,default='Tunis',help_text="Gouvernorat")
-	description = models.TextField(help_text="informations sur le crime ")
-	sexe=models.CharField(max_length=15,choices=sexchoice,help_text="sexe:")
-	time = models.DateTimeField(auto_now_add=False, auto_now=False, verbose_name="Date de crime",help_text="Date et Heure du crime ")
+	gouvernorat = models.CharField(max_length=30, choices=gouv_choice,default='Tunis',help_text="Gouvernorat:"  )
+	description = models.TextField() help_text="informations:")
+	sexe=models.CharField(max_length=15,choices=sexchoice,help_text="sexe")
+	time = models.DateTimeField(auto_now_add=False, auto_now=False, verbose_name="Date de crime",help_text="Date et Heure du crime: ")
 	position = GeopositionField()
-	crimetype = models.CharField(max_length=30,choices=crime_choice,help_text="Quel est le crime ?")
+	crimetype = models.CharField(max_length=30,choices=crime_choice,help_text=" crime :")
 	cpt = models.IntegerField(default=0)
 	
 	def __unicode__(self):

@@ -3,9 +3,10 @@ from django.template import RequestContext
 from crime.forms import crimeForm
 from crime.models import crime
 import json
+
 def acceuil(request):
 	context =  RequestContext(request)
-	context_dict=  { 'hello':"Page d'acceuil de CriMap"}
+	context_dict=  { 'hello':"Introduction"}
 	return render_to_response('crime/acceuil.html',context_dict)
 def thanks(request):
 	context = RequestContext(request)

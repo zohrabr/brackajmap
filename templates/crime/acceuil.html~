@@ -4,13 +4,13 @@
 {% block title %} acceuil {% endblock %}
 {% block body_block_left %}
 <div class="hero-unit">
-   <h3>{{ hello }} à CriMap :  </h3>
+   <h3><font color="blue"> {{ hello }} à CriMap : </font> </h3>
 	<p> La montée en flèche de la criminalité en Tunisie constitue une source d’inquiétude.</br>De ce fait, notre site vient de donner des renseignements aux utilisateurs sur les lieux des crimes afin de prendre garde de ces places et de diminuer l’agression perpétrée à l’encontre de nos citoyens dans les grandes villes.</p>
 </div>
 {% endblock %}
 {% block body_block_right %}
 <div class="hero-unit">
-<h2>  Bienvenue sur notre site CriMap </h2>
+<h2><font color="blue">  Bienvenue sur notre site CriMap </font></h2>
 <img src="{% static 'tunisia.jpg' %}" alt="tunisie" align="center" >
 </div>
 {% endblock %}

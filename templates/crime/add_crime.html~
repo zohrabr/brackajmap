@@ -1,9 +1,11 @@
 {% extends  'crime/base.html' %}
 {% block title %}ajout d'un crime ! {% endblock %}
-{% block body_block %}
-	 <h1>Quel crime vous a rencontrez ? </h1>
+{% block body_block_left %}
+<div class="hero-unit">	
+ <h3>Quel crime vous a rencontrez ? </h3>
 
-        <form id="crime_form" method="post" action="/crime/add_crime/">
+	<div class="container">
+        <form id="crime_form" method="post" action="/crime/new_crime/">
 
             {% csrf_token %}
             {% for hidden in form.hidden_fields %}
@@ -14,9 +16,13 @@
             {% for field in form.visible_fields %}
                 {{ field.errors }}
                 {{ field.help_text }}
+		</br>
                 {{ field }}
 	</br>
             {% endfor %}
 
-            <input type="submit" name="submit" value="envoyer" /> 
+            <button class="btn btn-primary" type="submit" name="submit" > envoyer </button> 
+</form>
+    </div>
+</div>
 {% endblock %}

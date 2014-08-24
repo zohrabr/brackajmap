@@ -1,15 +1,19 @@
 {% extends 'crime/base.html' %}
 {% load static %}
-{% block title %} acceuil {% endblock %}
+{% block title %} Acceuil {% endblock %}
 {% block body_block_left %}
-<div class="hero-unit">
-   <h3>{{ hello }} à CriMap :  </h3>
-	<p> La montée en flèche de la criminalité en Tunisie constitue une source d’inquiétude.</br>De ce fait, notre site vient de donner des renseignements aux utilisateurs sur les lieux des crimes afin de prendre garde de ces places et de diminuer l’agression perpétrée à l’encontre de nos citoyens dans les grandes villes.</p>
+<div class="hero-unit" >
+   
+</br>
+	<h3>{{ hello }} à CriMap :  </h3>
+	<p> La montée en flèche de la criminalité en Tunisie constitue une source d’inquiétude.</br>De ce fait, notre site vient donner des renseignements aux utilisateurs sur les lieux des crimes afin de facilement localiser les places dite a risque et diminuer donc le taux des agressions perpétrées à l’encontre de nos citoyens dans les grandes villes.</p>
 </div>
 {% endblock %}
 {% block body_block_right %}
 <div class="hero-unit">
-<h2>  Bienvenue sur notre site CriMap </h2>
+</br> 
+<h2 >  Bienvenue ! </h2> 
+<img src= "{% static 'tunis.png' %}">
     
 </div>
 {% endblock %}

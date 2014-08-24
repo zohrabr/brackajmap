@@ -7,55 +7,47 @@
     <link href="{% static 'css/bootstrap-fluid-adj.css' %}" rel="stylesheet">
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" media="screen">
     <link href="{% static 'css/bootstrap-responsive.css' %}" rel="stylesheet">
-    <link href="{% static '/styl.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/styl.css' %}" rel="stylesheet" type="text/css">
         <title> {% block title %}donner le titre ! {% endblock %}</title>
     </head>
 
     <body>
-	<!--<h1>Bienvenue sur notre site CriMap </h1>
-        <h2>Menu </h2>
-	<h3> <ul> 
-		<li> <a href='/crime/acceuil'>Acceuil </a>		
-		<li> <a href='/crime/new_crime'> Ajouter un crime </a>
-		<li> <a href='/crime/statistique'>Voir les statstiques </a>
-		<li> <a href='/crime/modifier/?id=' {{the_id}} >modifier  </a> 
-		</ul> 
-	</h3>"""
-	 <hr/> -->
-           
 
 
-<!-- Conteneur principal -->
 <div class="container">
-
-<!-- Barre de navigation -->
-<div class="navbar navbar-inverse navbar-fixed-top">
+<div class=" navbar  navbar-inverse navbar-fixed-top" >
 <div class="navbar-inner">
-<!-- Bouton apparaissant sur les résolutions mobiles afin de faire apparaître le menu de navigation -->
 <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 </a>
-<a class="brand" href="/crime/acceuil">CriMap</a>
-<!-- Structure du menu -->
-<div class="nav-collapse collapse">
-<ul class="nav pull-right">
-<li> <a href="">Se connecter</a>
-</ul>
-<ul class="nav">
-<li><a href="/crime/acceuil">Accueil</a>
-<li> <a href='/crime/new_crime'> Ajouter un crime </a>
-<li> <a href='/crime/statistique'> statstiques </a>
-<li> <a href='/crime/modifier/?id=' {{the_id}} > modifier un crime  </a> 
-<li> <a href='/crime/supprimer/?id=' {{the_id}} > supprimer un crime  </a> 
-</ul>
-</div>
-</div>
+            <a class="brand" href="#"> &nbsp;&nbsp;&nbsp;&nbsp;<img src= "{% static 'log.PNG' %}">&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+<div class="nav-collapse collapse" >
+<div data-role="header" style="overflow:hidden;">
+    <h2 > <font color="#C0CCD2" style="Arial">CriMap </font> </h2>
+ 
+    <ul class=" nav pull-right">
+<li> <a href="#"><font size="3pt" color ="#BFC6CB" > <img src= "{% static 'cadena.png' %}">&nbsp;&nbsp;Se connecter</font></a>
+</ul >
+<ul class="nav navbar-nav main-navi uppercase">
+<li><a href="/crime/acceuil"><font size="3pt" color ="#BFC6CB"><img src= "{% static 'home.ico' %}">&nbsp;Accueil</font></a>
+<li> <a href='/crime/new_crime' ><font size="3pt" color ="#BFC6CB"> <img src= "{% static 'add.ico' %}">Ajouter un crime</font> </a>
+<li> <a href='/crime/statistique'><font size="3pt" color ="#BFC6CB"><img src= "{% static 'stat.png' %} ">&nbsp;statstiques</font> </a>
+<li> <a href='#' > <font size="3pt" color ="#BFC6CB"><img src= "{% static 'modif.ico' %}">&nbsp;modifier un crime </font> </a> 
+<li> <a href='#'> <font size="3pt" color ="#BFC6CB"><img src= "{% static 'delet.ico' %}">&nbsp;supprimer un crime  </font></a> 
 </div>
 
-</div>
 
+</div>
+</div>
+</div> 
+
+
+    
+
+</div> 
 
 	 <div class="container-fluid">
     <div class="row-fluid">
@@ -80,10 +72,12 @@
 <hr>
 
         
-
+<footer> 
+  CriMap &copy; 2014
+</footer> 
       
        <script src="{% static 'js/jquery-2.0.3.min.js' %}"></script>
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
-<footer> &copy; 2014 CriMap</footer>    
+   
 </body>
 </html>

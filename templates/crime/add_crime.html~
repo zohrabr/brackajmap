@@ -1,8 +1,9 @@
 {% extends  'crime/base.html' %}
+{%  load static %}
 {% block title %}ajout d'un crime ! {% endblock %}
 {% block body_block_left %}
 <div class="hero-unit">	
- <h3>Quel crime vous a rencontrez ? </h3>
+ <h4>avez vs deja été la victime d'un crime ? </h4>
 
 	<div class="container">
         <form id="crime_form" method="post" action="/crime/new_crime/">
@@ -25,4 +26,17 @@
 </form>
     </div>
 </div>
+{% endblock %}
+{% block body_block_right %}
+		</br> 
+	</br>
+</br> 
+</br>
+</br>
+ <h2><font color="#244994">Marquer la place du crime</font> </h2>
+  	 
+      	  <script src="{% static 'js/add_script.js' %}"></script>
+       		 {% include 'crime/gmindex.html' %} 
+   	
+
 {% endblock %}

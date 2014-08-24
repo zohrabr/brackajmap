@@ -1,4 +1,4 @@
-{% extends 'rango/base.html' %}
+{% extends 'crime/base.html' %}
 
 {% block title %}thanks{% endblock %}
 

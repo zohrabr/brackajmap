@@ -1,4 +1,5 @@
 {% extends  'crime/base.html' %}
+{%  load static %}
 {% block title %}ajout d'un crime ! {% endblock %}
 {% block body_block_left %}
 <div class="hero-unit">	
@@ -25,4 +26,8 @@
 </form>
     </div>
 </div>
+    <div class="hero-unit">
+        <script src="{% static 'js/add_script.js' %}"></script>
+        {% include 'crime/gmindex.html' %}
+    </div>
 {% endblock %}

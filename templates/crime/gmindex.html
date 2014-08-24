@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+{% load static %}
+<head>
+    <title>google maps try</title>
+</head>
+<body>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAad2xRPPwwSZw4-wrLRdTiLZLXjjdzRI4&libraries=places"></script>
+    <script src="{% static 'markerclusterer.js' %}"></script>
+    <script src="{%  static 'jquery-2.1.1.min.js' %}"></script>
+    <script src="{% static 'jquery-ui.js' %}"></script>
+    <script src="{% static 'gmapping.js' %}"></script>
+    <input id="searchBox" type="text">
+    <div id="map-canvas" style="height: 600px;width: 1000px;float:left"></div>
+    <div>
+        <input id="search" type="text">
+        <form action="" method="post">
+            {% csrf_token %}
+            <label>name</label><input type="date" name="nom"><br>
+            <label>severité</label><input type="text" name="severite">
+            <input type="submit" value="add crime">
+            <a href="{% url 'socialauth_begin' 'facebook' %}">Login with facebook</a>
+            <a href="{% url 'socialauth_begin' 'google-oauth2' %}">Login with Google</a>
+        </form>
+    </div>
+</body>
+</html>

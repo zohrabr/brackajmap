@@ -11,12 +11,12 @@ footer {
   text-align:center; 
   color : blue ;
 }
-nav {
-  background-color:#bcd;
-  border-radius: 8px;
+.nav {
+  background-color:#015595;
+  border-radius: 0px;
   padding: 0 !important;
-  border: 1px solid #ddd;
-  margin-bottom: 20px;
+  border: 0px solid #ddd;
+  margin-bottom: 0px;
 }
 section { 
   padding-right: 0 !important; 

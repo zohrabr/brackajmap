@@ -85,11 +85,14 @@ def modify(request):
 		return HttpResponse("fail post")		
 		
 def filtercrime(request):
-	if request.method == "POST":
-		sex = request.POST["sexe"]
-		gouv = request.POST["gouvernorat"]
-		cat = request.POST["crimetype"]
-		
+	if request.method == "GET":
+		sex, gouv, cat = None, None, None
+		if "sex" in request.GET:
+			sex = request.GET["sexe"]
+		if "gouvernorat" in request.GET:
+			gouv = request.GET["gouvernorat"]
+		if "crimetype" in request.GET:
+			cat = request.GET["crimetype"]		
 		q = Q()
 		if sex :
 			q= q & Q(sexe=sex)

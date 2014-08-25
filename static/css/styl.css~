@@ -38,4 +38,7 @@ h1 {
   background-color: #BD000D;
   border-radius: 8px;
 }
-
+.footer-wrapper {
+position: relative;
+height: 50px;
+}

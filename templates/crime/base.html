@@ -31,22 +31,17 @@
     <ul class=" nav pull-right">
 <li> <a href="#"><font size="3pt" color ="#BFC6CB" > <img src= "{% static 'cadena.png' %}">&nbsp;&nbsp;Se connecter</font></a>
 </ul >
-<ul class="nav navbar-nav main-navi uppercase">
+<ul class="nav navbar-nav main-navi uppercase ">
 <li><a href="/crime/acceuil"><font size="3pt" color ="#BFC6CB"><img src= "{% static 'home.ico' %}">&nbsp;Accueil</font></a>
-<li> <a href='/crime/new_crime' ><font size="3pt" color ="#BFC6CB"> <img src= "{% static 'add.ico' %}">Ajouter un crime</font> </a>
-<li> <a href='/crime/statistique'><font size="3pt" color ="#BFC6CB"><img src= "{% static 'stat.png' %} ">&nbsp;statstiques</font> </a>
-<li> <a href='#' > <font size="3pt" color ="#BFC6CB"><img src= "{% static 'modif.ico' %}">&nbsp;modifier un crime </font> </a> 
-<li> <a href='#'> <font size="3pt" color ="#BFC6CB"><img src= "{% static 'delet.ico' %}">&nbsp;supprimer un crime  </font></a> 
+<li> <a href='/crime/new_crime' ><font size="3pt" color ="#BFC6CB"> <img src= "{% static 'mark.ico' %}">&nbsp;Ajouter un crime</font> </a>
+<li> <a href='/crime/statistique'><font size="3pt" color ="#BFC6CB"><img src= "{% static 'stat.png' %} ">&nbsp;Statstiques</font> </a>
+<li> <a href='#' > <font size="3pt" color ="#BFC6CB"><img src= "{% static 'mod.ico' %}">&nbsp;Modifier un crime </font> </a> 
+<li> <a href='#'> <font size="3pt" color ="#BFC6CB"><img src= "{% static 'delet.ico' %}">&nbsp;Supprimer un crime  </font></a> 
+
 </div>
-
-
 </div>
 </div>
 </div> 
-
-
-    
-
 </div> 
 
 	 <div class="container-fluid">
@@ -70,11 +65,16 @@
 
 
 <hr>
+	
 
-        
-<footer> 
-  CriMap &copy; 2014
-</footer> 
+<div class="footer">
+<div class="container">
+  <p class="text-muted">
+CriMap &copy; 2014
+</p>
+</div>
+</div> 
+
       
        <script src="{% static 'js/jquery-2.0.3.min.js' %}"></script>
     <script src="{% static 'js/bootstrap.min.js' %}"></script>

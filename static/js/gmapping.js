@@ -46,7 +46,7 @@ function create_markers(c, data){
 }
 
 
-$(document).ready(function(){
+
     var center = new google.maps.LatLng(36.795, 10.15);
     var options = {
         center: center,
@@ -85,4 +85,3 @@ $(document).ready(function(){
     }
     carte.fitBounds(bounds);
 });
-  });

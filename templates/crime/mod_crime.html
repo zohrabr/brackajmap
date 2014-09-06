@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+{% extends 'crime/base.html' %}
+{% load static %}
+<head>
+    <title>{% block title %}modifier une crime{% endblock %}</title>
+    {% block style %}
+    {% endblock %}
+</head>
+<body>
+{% block body_block_right %}
+    {% include 'crime/gmindex.html' %}
+{% endblock %}
+{% block body_block_left %}
+    {{ form.as_p }}
+{% endblock %}
+{% block script %}
+    <script src="{% static 'js/gmapping.js' %}"></script>
+{% endblock %}
+</body>
+</html>

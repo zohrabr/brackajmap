@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+{% load static %}
+<head>
+    <title>calender</title>
+    <link href="{% static 'css/cal-heatmap.css' %}" rel="stylesheet">
+    <style>
+        button {
+            width:60px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+<div id="calender"></div><button id="prev">prev</button><button id="next">next</button>
+<hr>
+<div id="calender1"></div><button id="prev1">prev</button><button id="next1">next</button>
+<hr>
+<div id="calender2"></div><button id="prev2">prev</button><button id="next2">next</button>
+<script src="{% static 'js/jquery-2.1.1.min.js' %}"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="{% static 'js/cal-heatmap.min.js' %}"></script>
+<script src="{% static 'js/calender.js' %}"></script>
+</body>
+</html>

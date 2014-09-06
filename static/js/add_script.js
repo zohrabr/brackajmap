@@ -53,22 +53,16 @@ $(document).ready(function(){
             icon: '/static/img/danger2.png',
             draggable: true
         });
-        var form = '<div id="marker_option" >'+
-                "c'est une crime ici ! <a href='#'>voire</a> plus de données"+
-                '<p><a href="#">delete</a> this crime</p>'+
-                '<p><a href="#">report</a> this crime</p>'+
-                '</div>';
-    var infoWin = new google.maps.InfoWindow({content: form});
-    google.maps.event.addListener(marker, 'click', function(){
-        infoWin.open(carte, marker);
-    });
+
         marker_tmp = marker ;
        // $.get('/map/add/', {lat: lat, lon: lon}, function(data){});
-    });
-    google.maps.event.addListener(marker_tmp, 'drag', function() {
-        $('#id_position_0').val(this.getPosition().lat());
-        $('#id_position_1').val(this.getPosition().lng());
+            google.maps.event.addListener(marker_tmp, 'drag', function() {
+        $('#id_position_0').val(marker_tmp.getPosition().lat());
+        $('#id_position_1').val(marker_tmp.getPosition().lng());
+        console.log("draggend "+marker_tmp.getPosition());
 
     });
+    });
+
 
 });

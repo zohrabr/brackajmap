@@ -1,2 +1,26 @@
 {% extends 'crime/base.html' %}
+{% load static %}
 {% block title %} statistique {% endblock %}
+{% block style %}
+{% endblock %}
+{% block body_block_right %}
+    <div class="hero-unit">
+        <div class="active" id="container_type"></div>
+        <div class="active" id="container_sex"></div>
+    </div>
+{% endblock %}
+{% block body_block_left %}
+<a href="#" id="sex_pr">see sexe pourcentage</a>
+<a href="#" id="type_pr">see type pourcentage</a>
+{% endblock %}
+{% block script %}
+    <script src="{% static 'js/jquery-2.1.1.min.js' %}"></script>
+    <script src="{% static 'js/highcharts.js' %}"></script>
+    <script src="{% static 'js/stat1.js' %}" ></script>
+    <script>
+       $(document).ready(function(){
+           plot_sex_stat(baseConfig);
+           plot_type_stat(baseConfig);
+});
+    </script>
+{% endblock %}

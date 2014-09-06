@@ -10,14 +10,12 @@ https://docs.djangoproject.com/en/1.6/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-SETTINGS_DIR=os.path.dirname(__file__)
-PROJECT_PATH=os.path.join(SETTINGS_DIR,os.pardir)
-PROJECT_PATH=os.path.abspath(PROJECT_PATH)
-TEMPLATE_PATH=os.path.join(PROJECT_PATH,'templates')
-DATABASE_PATH=os.path.join(PROJECT_PATH,'crime.db')
-TEMPLATE_DIRS=(
-	TEMPLATE_PATH,
+SETTINGS_DIR = os.path.dirname(__file__)
+DATABASE_PATH = os.path.join(BASE_DIR, 'crime.db')
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR, 'templates/'),
 )
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
@@ -30,16 +28,13 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-
-
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
 
 INSTALLED_APPS = (
-    
-'django.contrib.admin',
+    'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -47,7 +42,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admindocs',
     'crime',
-    'geoposition', 	
+    'geoposition',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -90,8 +85,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
-STATIC_PATH = os.path.join(PROJECT_PATH,'static')
+STATIC_PATH = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
-STATICFILES_DIRS=(
-	STATIC_PATH,
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
 )

@@ -14,20 +14,20 @@ function addMarker(map, latlng){
         position: latlng,
         icon: theaf
     });
-    google.maps.event.addListener(marker, 'click', function(){
-        $.post('/crime/sendcrime/', {lat:this.getPosition().lat(), lng:this.getPosition().lng()}, function(){
-
-        })
-            var form = '<div id="marker_option" >'+
-                "c'est une crime ici ! <a href='#'>voire</a> plus de données"+
-                '<p><a href="/crime/supprimer/{{1}}">delete</a> this crime</p>'+
-                '<p><a href="#">report</a> this crime</p>'+
-                '</div>';
-            var infoWin = new google.maps.InfoWindow({content: form});
-            infoWin.open(map, marker);
-    });
     return marker;
 }
+
+
+function spread_data(dict){
+    $('#id_gouvernorat').val(dict['gouv'])
+    $('#id_description').val(dict['desc'])
+    $('#id_sexe').val(dict['sx'])
+    $('#id_time').val(dict['temp'])
+    $('#id_position').val(dict['pos'])
+    $('#id_crimetype').val(dict['cat'])
+
+}
+
 
 function create_markers(c, data){
     var l = data.length;
@@ -42,6 +42,11 @@ function create_markers(c, data){
         markers.push(the_marker);
         google.maps.event.addListener(the_marker, 'click', function(){
             console.log("marker clicked at " + this.getPosition());
+            var lat = this.getPosition().lat();
+            var lng = this.getPosition().lng();
+            $.get('/crime/sendcrime/', {lat:lat, lng:lng}, function(data){
+                spread_data(data);
+            });
         });
     }
     console.log(markers.length);

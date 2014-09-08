@@ -5,6 +5,7 @@
 <head>
     <title>{% block title %}modifier une crime{% endblock %}</title>
     {% block style %}
+        <link href="{% static 'css/bootstrap-datetimepicker.min.css' %}" rel="stylesheet">
     {% endblock %}
 </head>
 <body>
@@ -12,10 +13,25 @@
     {% include 'crime/gmindex.html' %}
 {% endblock %}
 {% block body_block_left %}
+    <form method="post" action="/crime/modifier/">
+    {% csrf_token %}
+    <input type="hidden" value="" id="id_id" name="id">
     {{ form.as_p }}
+    <input type="submit" class="btn btn-success" value="send">
+    </form>
 {% endblock %}
 {% block script %}
-    <script src="{% static 'js/gmapping.js' %}"></script>
+    <script src="{% static 'js/mod_crime.js' %}"></script>
+    <script src="{% static 'js/moment.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap-datetimepicker.js' %}" ></script>
+    <script>
+        $(document).ready(function(){
+            $('#id_time').datetimepicker({
+                pick12HourFormat: false,
+                format: 'YYYY-MM-DD HH:mm:ss'
+            });
+        })
+    </script>
 {% endblock %}
 </body>
 </html>

@@ -19,11 +19,18 @@ function addMarker(map, latlng){
 
 
 function spread_data(dict){
+    $('#id_id').val(dict['id'])
     $('#id_gouvernorat').val(dict['gouv'])
     $('#id_description').val(dict['desc'])
-    $('#id_sexe').val(dict['sx'])
+    if (dict['sx'] == 'Homme'){
+        $('#id_sexe_0')[0].checked = true
+    }
+    else {
+        $('#id_sexe_1')[0].checked = true;
+    }
     $('#id_time').val(dict['temp'])
-    $('#id_position').val(dict['pos'])
+    $('#id_position_0').val(dict['lat'])
+    $('#id_position_1').val(dict['lon'])
     $('#id_crimetype').val(dict['cat'])
 
 }
@@ -44,7 +51,7 @@ function create_markers(c, data){
             console.log("marker clicked at " + this.getPosition());
             var lat = this.getPosition().lat();
             var lng = this.getPosition().lng();
-            $.get('/crime/sendcrime/', {lat:lat, lng:lng}, function(data){
+            $.get('/crime/modifier/', {lat:lat, lng:lng}, function(data){
                 spread_data(data);
             });
         });

@@ -57,37 +57,41 @@ def delete(request):
 def modify(request):
     if request.method == 'GET':
         if 'lat' and 'lng' not in request.GET:
-            return HttpResponse("fail")
+            return HttpResponse("fail no position in get")
         lat = request.GET['lat']
         lng = request.GET['lng']
         try:
             p = Geoposition(lat, lng)
             obj = crime.objects.get(position=p)
+            obj_id = obj.id
             gouv = obj.gouvernorat
             desc = obj.description
             sx = obj.sexe
-            temp = str(obj.time)
+            temp = str(obj.time)[:-6]
             cat = obj.crimetype
-            pos = str(obj.position)
-            dictionnaire = {'gouv': gouv,
+            lat = str(obj.position.latitude)
+            lon = str(obj.position.longitude)
+            dictionnaire = {'id': obj_id,
+                            'gouv': gouv,
                             'temp': temp,
                             'desc': desc,
-                            'pos': pos,
+                            'lat': lat,
+                            'lon': lon,
                             'sx': sx,
                             'cat': cat}
 
             return HttpResponse(json.dumps(dictionnaire),
                                 content_type='application/json')
         except crime.DoesNotExist:
-            return HttpResponse("fail")
+            return HttpResponse("fail no crime in get")
     elif request.method == 'POST':
-        if 'id' not in request.GET:
-            return HttpResponse("fail")
-        the_id = request.GET['id']
+        if 'id' not in request.POST:
+            return HttpResponse("fail no id")
+        the_id = request.POST['id']
         try:
             obj = crime.objects.get(id=the_id)
         except crime.DoesNotExist:
-            return HttpResponse("fail")
+            return HttpResponse("fail no crime")
         if "gouvernorat" in request.POST:
             obj.gouvernorat = request.POST["gouvernorat"]
         if "description" in request.POST:
@@ -97,12 +101,13 @@ def modify(request):
         if "crimetype" in request.POST:
             obj.crimetype = request.POST["crimetype"]
         if "position" in request.POST:
-            obj.position = request.POST["position"]
+            position = request.POST["position"]
         if "time" in request.POST:
             obj.time = request.POST["time"]
+        obj.save()
         return HttpResponse("succes post")
     else:
-        return HttpResponse("fail post")
+        return HttpResponse("fail all")
 
 
 def filtercrime(request):
@@ -168,4 +173,5 @@ def test(request):
 
 
 def mod_crime(request):
-    pass
+    form = crimeForm()
+    return render(request, 'crime/mod_crime.html', locals())

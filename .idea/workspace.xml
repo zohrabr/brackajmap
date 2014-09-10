@@ -2,30 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65e5135f-255e-426f-a429-c46a125be565" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/cal-heatmap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/cal-heatmap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/calendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/crime/calendar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/calender.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/crime/mod_crime.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mod_crime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/stat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/stat1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/about-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slider/bg1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slider/bg2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slider/bg3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/contact-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/ear-piece.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/event-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/event/event1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/event/event2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/event/event3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/footer-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/guitar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/guitar2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/header-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/map-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/performar-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/sponsor-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/sponsor/sponsor1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/sponsor/sponsor2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/sponsor/sponsor3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/sponsor/sponsor4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/sponsor/sponsor5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/sponsor/sponsor6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/twit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/twitter-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/twitter/twitter1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/twitter/twitter2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/twitter/twitter3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/watch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/coundown-timer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/gmaps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.nav.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.parallax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.scrollTo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/modernizr.custom.86080.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/respond.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/smoothscroll.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crime.db" afterPath="$PROJECT_DIR$/crime.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/crime/acceuil.html" afterPath="$PROJECT_DIR$/templates/crime/acceuil.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/crime/add_crime.html" afterPath="$PROJECT_DIR$/templates/crime/add_crime.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/add_script.js" afterPath="$PROJECT_DIR$/static/js/add_script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crime/admin.py" afterPath="$PROJECT_DIR$/crime/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/crime/base.html" afterPath="$PROJECT_DIR$/templates/crime/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crime/forms.py" afterPath="$PROJECT_DIR$/crime/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/gmapping.js" afterPath="$PROJECT_DIR$/static/js/gmapping.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/crime/gmindex.html" afterPath="$PROJECT_DIR$/templates/crime/gmindex.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crime/models.py" afterPath="$PROJECT_DIR$/crime/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brakajmap/settings.py" afterPath="$PROJECT_DIR$/brakajmap/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/crime/statistique.html" afterPath="$PROJECT_DIR$/templates/crime/statistique.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crime/urls.py" afterPath="$PROJECT_DIR$/crime/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crime/views.py" afterPath="$PROJECT_DIR$/crime/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="brackajmap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,23 +86,56 @@
     <favorites_list name="brackajmap" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4529828">
+    <splitter split-orientation="horizontal" split-proportion="0.5593047">
       <split-first>
         <leaf>
-          <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/crime/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="170" column="8" selection-start="5663" selection-end="5663" vertical-scroll-proportion="2.1897185" vertical-offset="1109" max-vertical-offset="3006">
+                <state line="45" column="31" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="3114">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/crime/forms.py">
+          <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/templates/crime/base.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+                <state line="0" column="0" selection-start="0" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="acceuil.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/crime/acceuil.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="52" column="14" selection-start="2068" selection-end="2068" vertical-scroll-proportion="-32.444443" vertical-offset="60" max-vertical-offset="1170">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/static/js/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="20" column="9" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1098">
+                  <folding>
+                    <marker date="1410308293569" expanded="true" signature="48:145" placeholder="{&quot;lat&quot;: 43.04446...}" />
+                    <marker date="1410308293569" expanded="true" signature="297:973" placeholder="[...]" />
+                    <marker date="1410308293569" expanded="true" signature="365:455" placeholder="{&quot;featureType&quot;: &quot;road&quot;...}" />
+                    <marker date="1410308293569" expanded="true" signature="390:393" placeholder="[...]" />
+                    <marker date="1410308293569" expanded="true" signature="456:465" placeholder="{&quot;featureType&quot;: &quot;water&quot;...}" />
+                    <marker date="1410308293569" expanded="true" signature="465:582" placeholder="{&quot;featureType&quot;: &quot;landscape&quot;...}" />
+                    <marker date="1410308293569" expanded="true" signature="479:565" placeholder="[...]" />
+                    <marker date="1410308293569" expanded="true" signature="583:649" placeholder="{&quot;elementType&quot;: &quot;labels.text.fill&quot;...}" />
+                    <marker date="1410308293569" expanded="true" signature="599:618" placeholder="[...]" />
+                    <marker date="1410308293569" expanded="true" signature="650:838" placeholder="{&quot;featureType&quot;: &quot;poi&quot;...}" />
+                    <marker date="1410308293569" expanded="true" signature="719:826" placeholder="[...]" />
+                    <marker date="1410308293569" expanded="true" signature="839:915" placeholder="{&quot;elementType&quot;: &quot;labels.text&quot;...}" />
+                    <marker date="1410308293569" expanded="true" signature="870:915" placeholder="[...]" />
+                    <marker date="1410308293569" expanded="true" signature="1032:1106" placeholder="{&quot;styledMapName&quot;: &quot;Styled Map&quot;...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -80,42 +152,7 @@
           <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/crime/urls.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="0" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="378">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="gmapping.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/static/js/gmapping.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="17" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1782">
-                  <folding>
-                    <marker date="1409788605151" expanded="true" signature="0:41" placeholder="/** Created by piratos on 8/17/14. ...*/" />
-                    <marker date="1409788605151" expanded="true" signature="66:166" placeholder="{...}" />
-                    <marker date="1409788605151" expanded="true" signature="122:162" placeholder="{...}" />
-                    <marker date="1409788605151" expanded="true" signature="199:979" placeholder="{...}" />
-                    <marker date="1409788605151" expanded="true" signature="284:355" placeholder="{...}" />
-                    <marker date="1409788605151" expanded="true" signature="419:956" placeholder="{...}" />
-                    <marker date="1409788605151" expanded="true" signature="529:541" placeholder="{...}" />
-                    <marker date="1409788605151" expanded="true" signature="1013:1681" placeholder="{...}" />
-                    <marker date="1409788605151" expanded="true" signature="1130:1570" placeholder="{...}" />
-                    <marker date="1409788605151" expanded="true" signature="1483:1562" placeholder="{...}" />
-                    <marker date="1409788605151" expanded="true" signature="1624:1632" placeholder="{...}" />
-                    <marker date="1409788605151" expanded="true" signature="1759:1857" placeholder="{&quot;zoom&quot;: 14...}" />
-                    <marker date="1409788605151" expanded="true" signature="2262:3018" placeholder="{...}" />
-                    <marker date="1409788605151" expanded="true" signature="2333:2354" placeholder="{...}" />
-                    <marker date="1409788605151" expanded="true" signature="2518:2571" placeholder="{...}" />
-                    <marker date="1409788605151" expanded="true" signature="2636:2987" placeholder="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="mod_crime.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/static/js/mod_crime.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="4" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" vertical-offset="1130" max-vertical-offset="1872">
+                <state line="14" column="48" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="396">
                   <folding />
                 </state>
               </provider>
@@ -125,19 +162,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="mod_crime.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="mod_crime.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/js/mod_crime.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="30" column="0" selection-start="648" selection-end="648" vertical-scroll-proportion="0.39714625" vertical-offset="206" max-vertical-offset="1872">
+                <state line="18" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1998">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="mod_crime.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="mod_crime.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/templates/crime/mod_crime.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="16" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="468">
+                <state line="17" column="53" selection-start="532" selection-end="532" vertical-scroll-proportion="0.21684588" vertical-offset="185" max-vertical-offset="756">
                   <folding />
                 </state>
               </provider>
@@ -163,29 +200,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/crime/models.py" />
-        <option value="$PROJECT_DIR$/static/js/stat.js" />
-        <option value="$PROJECT_DIR$/brakajmap/settings.py" />
         <option value="$PROJECT_DIR$/static/js/stat1.js" />
         <option value="$PROJECT_DIR$/templates/crime/statistique.html" />
         <option value="$PROJECT_DIR$/static/css/calendar.css" />
         <option value="$PROJECT_DIR$/crime/admin.py" />
-        <option value="$PROJECT_DIR$/crime/urls.py" />
         <option value="$PROJECT_DIR$/templates/crime/calendar.html" />
         <option value="$PROJECT_DIR$/static/js/calender.js" />
-        <option value="$PROJECT_DIR$/templates/crime/base.html" />
         <option value="$PROJECT_DIR$/static/js/add_script.js" />
         <option value="$PROJECT_DIR$/static/js/gmapping.js" />
-        <option value="$PROJECT_DIR$/templates/crime/mod_crime.html" />
+        <option value="$PROJECT_DIR$/crime/urls.py" />
         <option value="$PROJECT_DIR$/static/js/mod_crime.js" />
+        <option value="$PROJECT_DIR$/templates/crime/mod_crime.html" />
         <option value="$PROJECT_DIR$/crime/views.py" />
+        <option value="$PROJECT_DIR$/static/js/main.js" />
+        <option value="$PROJECT_DIR$/templates/crime/acceuil.html" />
+        <option value="$PROJECT_DIR$/templates/crime/base.html" />
+        <option value="$PROJECT_DIR$/static/css/main.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1365" />
-    <option name="width" value="1282" />
-    <option name="height" value="1024" />
+    <option name="width" value="1026" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -232,87 +269,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brackajmap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brackajmap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brackajmap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brackajmap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brackajmap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brackajmap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brackajmap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brackajmap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="Settings.JavaScript.Linters.ClosureLinter" />
+    <property name="recentsLimit" value="5" />
     <property name="JavaScriptLanguageLevel" value="ES5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="JavaScriptPreferStrict" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -321,6 +294,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/static/css" />
     </key>
@@ -410,7 +384,27 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="brackajmap" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -436,27 +430,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="brackajmap" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -575,19 +549,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1365" y="0" width="1282" height="1024" extended-state="6" />
-    <editor active="true" />
+    <frame x="1365" y="0" width="1026" height="768" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0072933547" sideWeight="0.9150623" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.82446206" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.9904306" order="0" side_tool="true" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.084937714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -607,24 +581,11 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/stat1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="18" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="1566" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/brakajmap/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="19" selection-start="950" selection-end="950" vertical-scroll-proportion="0.0" vertical-offset="338" max-vertical-offset="1764" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crime/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/crime/calendar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="49" selection-start="405" selection-end="405" vertical-scroll-proportion="-6.6666665" vertical-offset="108" max-vertical-offset="540" />
@@ -635,11 +596,6 @@
         <state line="12" column="18" selection-start="372" selection-end="372" vertical-scroll-proportion="0.54" vertical-offset="0" max-vertical-offset="828" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/crime/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="6" selection-start="2328" selection-end="2328" vertical-scroll-proportion="-9.111111" vertical-offset="600" max-vertical-offset="1620" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/crime/add_crime.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="61" selection-start="914" selection-end="963" vertical-scroll-proportion="-8.666667" vertical-offset="378" max-vertical-offset="774" />
@@ -647,9 +603,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/add_script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="2077" selection-end="2077" vertical-scroll-proportion="0.0" vertical-offset="896" max-vertical-offset="1314">
-          <folding />
-        </state>
+        <state line="55" column="0" selection-start="2077" selection-end="2077" vertical-scroll-proportion="0.0" vertical-offset="896" max-vertical-offset="1314" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/crime/gmindex.html">
@@ -657,41 +611,27 @@
         <state line="9" column="0" selection-start="494" selection-end="494" vertical-scroll-proportion="0.45" vertical-offset="0" max-vertical-offset="360" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crime/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/gmapping.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="17" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1782">
           <folding>
-            <marker date="1409788605151" expanded="true" signature="0:41" placeholder="/** Created by piratos on 8/17/14. ...*/" />
-            <marker date="1409788605151" expanded="true" signature="66:166" placeholder="{...}" />
-            <marker date="1409788605151" expanded="true" signature="122:162" placeholder="{...}" />
-            <marker date="1409788605151" expanded="true" signature="199:979" placeholder="{...}" />
-            <marker date="1409788605151" expanded="true" signature="284:355" placeholder="{...}" />
-            <marker date="1409788605151" expanded="true" signature="419:956" placeholder="{...}" />
-            <marker date="1409788605151" expanded="true" signature="529:541" placeholder="{...}" />
-            <marker date="1409788605151" expanded="true" signature="1013:1681" placeholder="{...}" />
-            <marker date="1409788605151" expanded="true" signature="1130:1570" placeholder="{...}" />
-            <marker date="1409788605151" expanded="true" signature="1483:1562" placeholder="{...}" />
-            <marker date="1409788605151" expanded="true" signature="1624:1632" placeholder="{...}" />
-            <marker date="1409788605151" expanded="true" signature="1759:1857" placeholder="{&quot;zoom&quot;: 14...}" />
-            <marker date="1409788605151" expanded="true" signature="2262:3018" placeholder="{...}" />
-            <marker date="1409788605151" expanded="true" signature="2333:2354" placeholder="{...}" />
-            <marker date="1409788605151" expanded="true" signature="2518:2571" placeholder="{...}" />
-            <marker date="1409788605151" expanded="true" signature="2636:2987" placeholder="{...}" />
+            <marker date="1409788605151" expanded="true" signature="-1:-1" placeholder="/** Created by piratos on 8/17/14. ...*/" />
+            <marker date="1409788605151" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1409788605151" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1409788605151" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1409788605151" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1409788605151" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1409788605151" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1409788605151" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1409788605151" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1409788605151" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1409788605151" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1409788605151" expanded="true" signature="-1:-1" placeholder="{&quot;zoom&quot;: 14...}" />
+            <marker date="1409788605151" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1409788605151" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1409788605151" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1409788605151" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crime/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="742">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -702,23 +642,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/crime/mod_crime.html">
+    <entry file="file://$PROJECT_DIR$/crime/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="468">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="742">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crime/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="48" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/mod_crime.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="4" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" vertical-offset="1130" max-vertical-offset="1872">
+        <state line="18" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1998">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/crime/mod_crime.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="53" selection-start="532" selection-end="532" vertical-scroll-proportion="0.21684588" vertical-offset="185" max-vertical-offset="756">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crime/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="170" column="8" selection-start="5663" selection-end="5663" vertical-scroll-proportion="2.1897185" vertical-offset="1109" max-vertical-offset="3006">
+        <state line="45" column="31" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="3114">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="9" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1098">
+          <folding>
+            <marker date="1410308293569" expanded="true" signature="48:145" placeholder="{&quot;lat&quot;: 43.04446...}" />
+            <marker date="1410308293569" expanded="true" signature="297:973" placeholder="[...]" />
+            <marker date="1410308293569" expanded="true" signature="365:455" placeholder="{&quot;featureType&quot;: &quot;road&quot;...}" />
+            <marker date="1410308293569" expanded="true" signature="390:393" placeholder="[...]" />
+            <marker date="1410308293569" expanded="true" signature="456:465" placeholder="{&quot;featureType&quot;: &quot;water&quot;...}" />
+            <marker date="1410308293569" expanded="true" signature="465:582" placeholder="{&quot;featureType&quot;: &quot;landscape&quot;...}" />
+            <marker date="1410308293569" expanded="true" signature="479:565" placeholder="[...]" />
+            <marker date="1410308293569" expanded="true" signature="583:649" placeholder="{&quot;elementType&quot;: &quot;labels.text.fill&quot;...}" />
+            <marker date="1410308293569" expanded="true" signature="599:618" placeholder="[...]" />
+            <marker date="1410308293569" expanded="true" signature="650:838" placeholder="{&quot;featureType&quot;: &quot;poi&quot;...}" />
+            <marker date="1410308293569" expanded="true" signature="719:826" placeholder="[...]" />
+            <marker date="1410308293569" expanded="true" signature="839:915" placeholder="{&quot;elementType&quot;: &quot;labels.text&quot;...}" />
+            <marker date="1410308293569" expanded="true" signature="870:915" placeholder="[...]" />
+            <marker date="1410308293569" expanded="true" signature="1032:1106" placeholder="{&quot;styledMapName&quot;: &quot;Styled Map&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/crime/acceuil.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="14" selection-start="2068" selection-end="2068" vertical-scroll-proportion="-32.444443" vertical-offset="60" max-vertical-offset="1170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="1" selection-start="872" selection-end="872" vertical-scroll-proportion="0.19251336" vertical-offset="810" max-vertical-offset="13806">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/crime/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
           <folding />
         </state>
       </provider>

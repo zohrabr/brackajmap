@@ -12,4 +12,5 @@ urlpatterns = patterns('crime.views',
                        url(r'stat/', 'stat', name='stat'),
                        url(r'cdata/', 'calendar_data'),
                        url(r'test/', 'test'),
+                       url(r'mod/', 'mod_crime')
 )

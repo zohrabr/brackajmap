@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
+{% extends 'crime/base.html' %}
 {% load static %}
 <head>
     <title>calender</title>
+{% block style %}
     <link href="{% static 'css/cal-heatmap.css' %}" rel="stylesheet">
-    <style>
+{% endblock %}    
+<style>
         button {
             width:60px;
             height: 30px;
@@ -12,6 +15,7 @@
     </style>
 </head>
 <body>
+{% block content %}
 <div id="calender"></div><button id="prev">prev</button><button id="next">next</button>
 <hr>
 <div id="calender1"></div><button id="prev1">prev</button><button id="next1">next</button>
@@ -21,5 +25,6 @@
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="{% static 'js/cal-heatmap.min.js' %}"></script>
 <script src="{% static 'js/calender.js' %}"></script>
+{% endblock %}
 </body>
 </html>

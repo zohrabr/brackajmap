@@ -9,16 +9,27 @@
     {% endblock %}
 </head>
 <body>
-{% block body_block_right %}
+{% block content %}
+<div class="col-sm-8">
     {% include 'crime/gmindex.html' %}
-{% endblock %}
-{% block body_block_left %}
-    <form method="post" action="/crime/modifier/">
+</div>
+<div class="col-sm-4">
+    <form style="color: #000000" method="post" action="/crime/modifier/">
     {% csrf_token %}
-    <input type="hidden" value="" id="id_id" name="id">
-    {{ form.as_p }}
+    <input type="hidden" value="" id="id_id" name="id" class="form-group">
+    {% for Hfield in form.hidden_fields %}
+	{{ Hfield }}
+    {% endfor %}
+    {% for Vfield in form.visible_fields %}
+	{{ Vfield.errors }}
+	<div class="form-group">
+	{{ Vfield.help_text }}
+	{{ Vfield }}
+	</div>
+    {% endfor %}
     <input type="submit" class="btn btn-success" value="send">
     </form>
+</div>
 {% endblock %}
 {% block script %}
     <script src="{% static 'js/mod_crime.js' %}"></script>

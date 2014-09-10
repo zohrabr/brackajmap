@@ -8,7 +8,7 @@
     <link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet">
     <link href="{% static 'css/main.css' %}" rel="stylesheet">
     <link href="{% static 'css/animate.css' %}" rel="stylesheet" type="text/css">
-    <link href="{% static 'css/responsive.css' %}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap-responsive.css' %}" rel="stylesheet">
         <title> {% block title %}donner le titre ! {% endblock %}</title>
     {% block style %}
     {% endblock %}
@@ -38,7 +38,7 @@
 		                    <li ><a href="/crime/new_crime/">ajouter un crime</a></li>
 		                    <li ><a href="/crime/mod/">modifier un crime</a></li>
 		                    <li ><a href="/crime/statistique/">crimes</a></li>
-		                    <li ><a href="#">about us</a></li>
+		                    <li ><a href="/crime/test/">calendrier</a></li>
 		                    <li ><a href="#">Contact</a></li>
 		                </ul>
 		            </div>
@@ -53,7 +53,7 @@
 <script src="{% static 'js/smoothscroll.js' %}"></script>
 <script src="{% static 'js/jquery.parallax.js' %}"></script>
 <script src="{% static 'js/jquery.nav.js' %}"></script>
-<script src="{% static 'js/main.js' %}"></script>
+<!-- <script src="{% static 'js/main.js' %}"></script> -->
 {% block script %}
 {% endblock %}
 </body>

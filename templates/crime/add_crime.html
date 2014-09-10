@@ -1,12 +1,12 @@
 {% extends  'crime/base.html' %}
 {%  load static %}
 {% block title %}ajout d'un crime ! {% endblock %}
-{% block body_block_left %}
-<div class="hero-unit">	
+{% block content %}
+<div class="col-sm-4">	
  <h4>De quel crime etes vous la victime ? </h4>
 
 	
-        <form id="crime_form" method="post" action="/crime/new_crime/">
+        <form id="crime_form" method="post" action="/crime/new_crime/" style="color:#000000">
 
             {% csrf_token %}
             {% for hidden in form.hidden_fields %}
@@ -16,9 +16,11 @@
 
             {% for field in form.visible_fields %}
                 {{ field.errors }}
+		<div class="form-group">
                 {{ field.help_text }}
 		</br>
                 {{ field }}
+		</div>
 	</br>
             {% endfor %}
 
@@ -26,12 +28,10 @@
 </form>
     
 </div>
-{% endblock %}
-{% block body_block_right %}
-<div class="hero-unit">
+<div class="col-sm-8">
  <h2 style="color:#244994;">Marquer la place du crime</h2>
 
-       		 {% include 'crime/gmindex.html' %}
+{% include 'crime/gmindex.html' %}
             <script src="{% static 'js/add_script.js' %}"></script>
 </div>
 {% endblock %}
